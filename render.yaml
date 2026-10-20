@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: weinstein-weekly
+    runtime: docker
+    autoDeploy: true
+    envVars:
+      - key: FINVIZ_API_TOKEN
+        sync: false
