@@ -1,0 +1,25 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Weinstein Weekly — Mega Cap Swing</title><link rel="stylesheet" href="/static/style.css">
+</head><body><div class="shell">
+<header class="hero"><div><div class="eyebrow">WEEKLY STAGE ANALYSIS</div><h1>منهج واينستين الأسبوعي</h1><p>سوينق أسبوعي فقط — Large & Mega Caps — Stage 1/2/3/4 + 30W MA + RS + Weekly Base + Volume.</p></div><div class="hero-card"><span>الهدف</span><strong>Stage 2</strong><small>نركب الاتجاه المؤسسي ولا نطارد.</small></div></header>
+<section class="panel controls"><div class="tabs"><button class="tab active" data-tab="analyze">تحليل سهم</button><button class="tab" data-tab="scan">مسح السوق</button><button class="tab" data-tab="billion">كل الشركات $10B+</button><button class="tab" data-tab="method">المنهج</button></div>
+<div id="analyzeTab" class="tabbody"><div class="searchrow"><input id="ticker" placeholder="NVDA / MSFT / META"><select id="minCap"><option value="10" selected>$10B+ Large/Mega</option><option value="50">$50B+</option><option value="100">$100B+</option><option value="200">$200B+ Mega</option></select><button id="analyzeBtn" class="primary">حلل أسبوعيًا</button></div><div class="examples"><button data-ticker="NVDA">NVDA</button><button data-ticker="MSFT">MSFT</button><button data-ticker="META">META</button><button data-ticker="AMZN">AMZN</button><button data-ticker="GOOGL">GOOGL</button><button data-ticker="AVGO">AVGO</button><button data-ticker="MU">MU</button></div></div>
+<div id="scanTab" class="tabbody hidden"><div class="scancontrols"><label>القيمة السوقية<select id="scanCap"><option value="10" selected>$10B+ Large/Mega</option><option value="50">$50B+</option><option value="100">$100B+</option><option value="200">$200B+ Mega</option></select></label><label>أقل درجة<input id="minScore" type="number" value="70"></label><label>عدد المرشحين<input id="maxNames" type="number" value="40"></label><button id="scanBtn" class="primary">امسح Large/Mega Caps</button></div><p class="hint">النتائج المؤهلة = Stage 2 قوية وغير ممتدة.</p></div>
+
+<div id="billionTab" class="tabbody hidden">
+  <div class="directory-tools">
+    <div>
+      <h3 style="margin:0">كل شركات Large + Mega Cap</h3>
+      <p class="hint" style="margin:6px 0 0">كل شركة بقيمة سوقية 10 مليارات دولار فأكثر — بدون Top N وبدون حذف يدوي.</p>
+    </div>
+    <input id="billionSearch" placeholder="ابحث بالرمز، اسم الشركة، القطاع أو الصناعة">
+  </div>
+  <div id="billionSummary" class="directory-summary"></div>
+  <div id="billionDirectory" class="directory-wrap">
+    <div class="status">افتح القسم لتحميل القائمة.</div>
+  </div>
+</div>
+
+<div id="methodTab" class="tabbody hidden method"><div class="weights"><div><b>35%</b><span>Stage Quality</span></div><div><b>20%</b><span>Relative Strength</span></div><div><b>15%</b><span>Weekly Base</span></div><div><b>10%</b><span>Volume</span></div><div><b>10%</b><span>Distance from 30W</span></div><div><b>10%</b><span>Market Regime</span></div></div><div class="stage-guide"><div><b>Stage 1</b><span>تجميع — مراقبة.</span></div><div><b>Stage 2</b><span>صعود — المرحلة المستهدفة.</span></div><div><b>Stage 3</b><span>توزيع — لا دخول جديد.</span></div><div><b>Stage 4</b><span>هبوط — تجنب.</span></div></div></div>
+</section><div id="status" class="status hidden"></div><main id="content"></main><footer>أداة بحث تعليمية وليست توصية شراء أو بيع.</footer></div><script src="/static/app.js"></script></body></html>
